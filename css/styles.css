@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background-color: #ddd2d2;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Query for devices with a maximum width of 767px (sm) */
+@media (max-width: 767px) {
+  .responsive-image {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+/* Media Query for devices with a minimum width of 992px (lg) */
+@media (min-width: 992px) {
+  .responsive-image {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+/* Media Query for devices with a minimum width of 1200px (xl) */
+@media (min-width: 1200px) {
+  .responsive-image {
+    max-width: 50%;
+    height: auto;
+  }
+}
