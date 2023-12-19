@@ -42,7 +42,7 @@ footer {
   }
 }
 
-/* Media Query for devices with a minimum width of 1200px (xl) */
+/*  devices with a minimum width of 1200px (xl) */
 @media (min-width: 1200px) {
   .responsive-image {
     max-width: 50%;
@@ -50,7 +50,7 @@ footer {
   }
 }
 
-/* styles.css */
+
 
 .lines-container {
   position: relative;
@@ -76,7 +76,7 @@ footer {
   top: 50%;
   width: 100%;
   height: 0.5px;
-  background-color: rgb(126, 126, 126); /* Change this color to black */
+  background-color: rgb(126, 126, 126); 
 }
 
 .custom-paragraph::before {
